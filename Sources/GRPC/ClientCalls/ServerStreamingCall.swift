@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOHPACK
-import NIOHTTP2
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP2
 
 /// A server-streaming gRPC call. The request is sent on initialization, each response is passed to
 /// the provided observer block.

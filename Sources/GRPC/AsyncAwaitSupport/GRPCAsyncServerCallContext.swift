@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 import Logging
-import NIOConcurrencyHelpers
-import NIOHPACK
+@_implementationOnly import NIOConcurrencyHelpers
+@_implementationOnly import NIOHPACK
 
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
 public struct GRPCAsyncServerCallContext: Sendable {

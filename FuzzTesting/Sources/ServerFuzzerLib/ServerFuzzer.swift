@@ -15,7 +15,7 @@
  */
 import EchoImplementation
 import GRPC
-import NIO
+@_implementationOnly import NIO
 
 @_cdecl("ServerFuzzer")
 public func test(_ start: UnsafeRawPointer, _ count: Int) -> CInt {

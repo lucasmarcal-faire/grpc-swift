@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOEmbedded
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOEmbedded
 import SwiftProtobuf
 
 extension EmbeddedChannel {

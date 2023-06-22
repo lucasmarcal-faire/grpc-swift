@@ -15,7 +15,7 @@
  */
 import EchoModel
 import GRPC
-import NIOCore
+@_implementationOnly import NIOCore
 import SwiftProtobuf
 
 public class EchoProvider: Echo_EchoProvider {

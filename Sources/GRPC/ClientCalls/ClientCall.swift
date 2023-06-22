@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 import Foundation
-import NIOCore
-import NIOHPACK
-import NIOHTTP1
-import NIOHTTP2
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP1
+@_implementationOnly import NIOHTTP2
 import SwiftProtobuf
 
 /// Base protocol for a client call to a gRPC service.

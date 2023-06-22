@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 import Foundation
-import NIOCore
-import NIOHPACK
-import NIOHTTP1
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP1
 
 public protocol ServerErrorDelegate: AnyObject {
   //! FIXME: Provide more context about where the error was thrown, i.e. using `GRPCError`.

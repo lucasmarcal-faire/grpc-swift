@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import GRPC
-import NIOCore
+@_implementationOnly import NIOCore
 
 public protocol InteroperabilityTest {
   /// Run a test case using the given connection.

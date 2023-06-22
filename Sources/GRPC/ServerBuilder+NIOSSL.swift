@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 #if canImport(NIOSSL)
-import NIOCore
-import NIOSSL
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOSSL
 
 extension Server {
   /// Returns a `Server` builder configured with TLS.

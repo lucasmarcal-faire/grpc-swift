@@ -15,7 +15,7 @@
  */
 
 import GRPC
-import NIOCore
+@_implementationOnly import NIOCore
 
 /// Interface server types must implement when using async APIs.
 protocol AsyncQPSServer {

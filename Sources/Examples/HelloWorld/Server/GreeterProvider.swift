@@ -15,7 +15,7 @@
  */
 import GRPC
 import HelloWorldModel
-import NIOCore
+@_implementationOnly import NIOCore
 
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
 final class GreeterProvider: Helloworld_GreeterAsyncProvider {

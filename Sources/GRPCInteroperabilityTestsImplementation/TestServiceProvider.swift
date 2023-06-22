@@ -16,7 +16,7 @@
 import struct Foundation.Data
 import GRPC
 import GRPCInteroperabilityTestModels
-import NIOCore
+@_implementationOnly import NIOCore
 
 /// A service provider for the gRPC interoperability test suite.
 ///

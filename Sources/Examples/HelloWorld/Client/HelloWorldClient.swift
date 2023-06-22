@@ -16,8 +16,8 @@
 import ArgumentParser
 import GRPC
 import HelloWorldModel
-import NIOCore
-import NIOPosix
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOPosix
 
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
 @main

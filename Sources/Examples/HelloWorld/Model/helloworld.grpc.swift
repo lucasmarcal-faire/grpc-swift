@@ -6,8 +6,8 @@
 // Source: helloworld.proto
 //
 import GRPC
-import NIO
-import NIOConcurrencyHelpers
+@_implementationOnly import NIO
+@_implementationOnly import NIOConcurrencyHelpers
 import SwiftProtobuf
 
 

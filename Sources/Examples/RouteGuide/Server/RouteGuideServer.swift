@@ -17,8 +17,8 @@ import ArgumentParser
 import struct Foundation.Data
 import struct Foundation.URL
 import GRPC
-import NIOCore
-import NIOPosix
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOPosix
 import RouteGuideModel
 
 /// Loads the features from `route_guide_db.json`, assumed to be in the directory above this file.

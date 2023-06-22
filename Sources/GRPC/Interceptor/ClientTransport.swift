@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOHPACK
-import NIOHTTP2
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP2
 
 /// This class is the glue between a `NIO.Channel` and the `ClientInterceptorPipeline`. In fact
 /// this object owns the interceptor pipeline and is also a `ChannelHandler`. The caller has very

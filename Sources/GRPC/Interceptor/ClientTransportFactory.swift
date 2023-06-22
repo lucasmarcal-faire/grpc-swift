@@ -13,8 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import NIOCore
-import NIOHTTP2
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHTTP2
 import protocol SwiftProtobuf.Message
 
 /// A `ClientTransport` factory for an RPC.

@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import NIOCore
-import NIOHPACK
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
 
 /// Async-await variant of ``ServerStreamingCall``.
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)

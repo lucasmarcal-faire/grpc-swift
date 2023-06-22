@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOHTTP2
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHTTP2
 #if canImport(NIOSSL)
-import NIOSSL
+@_implementationOnly import NIOSSL
 #endif
 import SwiftProtobuf
 

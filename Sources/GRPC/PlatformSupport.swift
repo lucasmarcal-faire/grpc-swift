@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOPosix
-import NIOTransportServices
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOPosix
+@_implementationOnly import NIOTransportServices
 
 /// How a network implementation should be chosen.
 public struct NetworkPreference: Hashable {

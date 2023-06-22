@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import NIOCore
+@_implementationOnly import NIOCore
 
 @available(*, deprecated, renamed: "Swift.Sendable")
 public typealias GRPCSendable = Swift.Sendable

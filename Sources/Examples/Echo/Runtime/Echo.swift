@@ -18,10 +18,10 @@ import EchoImplementation
 import EchoModel
 import GRPC
 import GRPCSampleData
-import NIOCore
-import NIOPosix
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOPosix
 #if canImport(NIOSSL)
-import NIOSSL
+@_implementationOnly import NIOSSL
 #endif
 
 // MARK: - Argument parsing

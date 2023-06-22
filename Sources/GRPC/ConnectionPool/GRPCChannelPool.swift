@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOPosix
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOPosix
 
 public enum GRPCChannelPool {
   /// Make a new ``GRPCChannel`` on which calls may be made to gRPC services.

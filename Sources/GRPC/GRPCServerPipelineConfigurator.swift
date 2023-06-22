@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOHPACK
-import NIOHTTP1
-import NIOHTTP2
-import NIOTLS
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP1
+@_implementationOnly import NIOHTTP2
+@_implementationOnly import NIOTLS
 
 /// Configures a server pipeline for gRPC with the appropriate handlers depending on the HTTP
 /// version used for transport.

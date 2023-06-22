@@ -15,7 +15,7 @@
  */
 
 import GRPC
-import NIOCore
+@_implementationOnly import NIOCore
 
 /// Protocol which async clients must implement.
 protocol AsyncQPSClient {

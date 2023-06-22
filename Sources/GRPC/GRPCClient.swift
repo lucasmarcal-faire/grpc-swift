@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import NIOConcurrencyHelpers
-import NIOCore
-import NIOHTTP2
+@_implementationOnly import NIOConcurrencyHelpers
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHTTP2
 import SwiftProtobuf
 
 /// A gRPC client.

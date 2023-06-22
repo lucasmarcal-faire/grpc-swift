@@ -15,10 +15,10 @@
  */
 import GRPC
 import Logging
-import NIOCore
-import NIOEmbedded
-import NIOHPACK
-import NIOHTTP2
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOEmbedded
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP2
 
 final class EmbeddedServerChildChannelBenchmark: Benchmark {
   private let text: String

@@ -13,8 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import NIOHPACK
-import NIOHTTP1
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP1
 
 /// A simple struct holding a ``GRPCStatus`` and optionally trailers in the form of
 /// `HPACKHeaders`.

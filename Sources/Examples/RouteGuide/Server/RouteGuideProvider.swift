@@ -15,8 +15,8 @@
  */
 import Foundation
 import GRPC
-import NIOConcurrencyHelpers
-import NIOCore
+@_implementationOnly import NIOConcurrencyHelpers
+@_implementationOnly import NIOCore
 import RouteGuideModel
 
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)

@@ -15,8 +15,8 @@
  */
 import Foundation
 import Logging
-import NIOCore
-import NIOHTTP1
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHTTP1
 
 /// This class reads and decodes length-prefixed gRPC messages.
 ///

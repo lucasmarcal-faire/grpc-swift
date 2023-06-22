@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import GRPC
-import NIOCore
+@_implementationOnly import NIOCore
 
 class PercentEncoding: Benchmark {
   let message: String

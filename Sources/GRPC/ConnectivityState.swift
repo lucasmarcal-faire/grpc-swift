@@ -15,8 +15,8 @@
  */
 import Foundation
 import Logging
-import NIOConcurrencyHelpers
-import NIOCore
+@_implementationOnly import NIOConcurrencyHelpers
+@_implementationOnly import NIOCore
 
 /// The connectivity state of a client connection. Note that this is heavily lifted from the gRPC
 /// documentation: https://github.com/grpc/grpc/blob/master/doc/connectivity-semantics-and-api.md.

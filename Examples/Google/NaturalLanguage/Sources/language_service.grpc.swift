@@ -6,8 +6,8 @@
 // Source: google/cloud/language/v1/language_service.proto
 //
 import GRPC
-import NIO
-import NIOConcurrencyHelpers
+@_implementationOnly import NIO
+@_implementationOnly import NIOConcurrencyHelpers
 import SwiftProtobuf
 
 

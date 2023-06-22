@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 #if canImport(NIOSSL)
-import NIOCore
-import NIOSSL
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOSSL
 #endif
 
 #if canImport(Network)
 import Network
-import NIOTransportServices
+@_implementationOnly import NIOTransportServices
 import Security
 #endif
 

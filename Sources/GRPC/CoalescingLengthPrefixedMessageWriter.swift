@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import DequeModule
-import NIOCore
+@_implementationOnly import NIOCore
 
 internal struct CoalescingLengthPrefixedMessageWriter {
   /// Length of the gRPC message header (1 compression byte, 4 bytes for the length).

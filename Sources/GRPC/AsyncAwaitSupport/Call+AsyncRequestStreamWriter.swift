@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import NIOCore
+@_implementationOnly import NIOCore
 
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
 extension Call where Request: Sendable, Response: Sendable {

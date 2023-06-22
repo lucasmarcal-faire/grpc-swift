@@ -20,14 +20,14 @@ import Foundation
 #endif
 
 import Logging
-import NIOCore
-import NIOHPACK
-import NIOHTTP2
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP2
 #if canImport(NIOSSL)
-import NIOSSL
+@_implementationOnly import NIOSSL
 #endif
-import NIOTLS
-import NIOTransportServices
+@_implementationOnly import NIOTLS
+@_implementationOnly import NIOTransportServices
 import SwiftProtobuf
 
 /// Provides a single, managed connection to a server which is guaranteed to always use the same

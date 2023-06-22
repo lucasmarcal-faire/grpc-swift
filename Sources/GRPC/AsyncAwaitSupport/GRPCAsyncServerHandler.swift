@@ -15,8 +15,8 @@
  */
 import DequeModule
 import Logging
-import NIOCore
-import NIOHPACK
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
 
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
 public struct GRPCAsyncServerHandler<

@@ -13,8 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import NIOCore
-import NIOHPACK
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
 
 public final class UnaryServerHandler<
   Serializer: MessageSerializer,

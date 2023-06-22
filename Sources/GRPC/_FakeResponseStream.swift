@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import NIOCore
-import NIOEmbedded
-import NIOHPACK
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOEmbedded
+@_implementationOnly import NIOHPACK
 
 public enum FakeRequestPart<Request> {
   case metadata(HPACKHeaders)

@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 import Logging
-import NIOConcurrencyHelpers
-import NIOCore
+@_implementationOnly import NIOConcurrencyHelpers
+@_implementationOnly import NIOCore
 
 // Unchecked because all mutable state is protected by a lock.
 extension PooledChannel: @unchecked Sendable {}

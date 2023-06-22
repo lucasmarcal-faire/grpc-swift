@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOTLS
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOTLS
 
 /// Application protocol identifiers for ALPN.
 internal enum GRPCApplicationProtocolIdentifier {

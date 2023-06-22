@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOHTTP2
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHTTP2
 
 /// Holds state for the 'GRPCIdleHandler', this isn't really just the idleness of the connection,
 /// it also holds state relevant to quiescing the connection as well as logging some HTTP/2 specific

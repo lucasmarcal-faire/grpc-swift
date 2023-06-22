@@ -22,7 +22,7 @@
 
 #if canImport(NIOSSL)
 import struct Foundation.Date
-import NIOSSL
+@_implementationOnly import NIOSSL
 
 /// Wraps `NIOSSLCertificate` to provide the certificate common name and expiry date.
 public struct SampleCertificate {

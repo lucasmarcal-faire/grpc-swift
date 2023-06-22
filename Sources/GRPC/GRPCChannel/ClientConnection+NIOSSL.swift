@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 #if canImport(NIOSSL)
-import NIOCore
-import NIOSSL
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOSSL
 
 extension ClientConnection {
   /// Returns a `ClientConnection` builder configured with TLS.

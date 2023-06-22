@@ -15,7 +15,7 @@
  */
 import Dispatch
 import Logging
-import NIOCore
+@_implementationOnly import NIOCore
 
 extension ClientConnection {
   /// Returns an insecure ``ClientConnection`` builder which is *not configured with TLS*.

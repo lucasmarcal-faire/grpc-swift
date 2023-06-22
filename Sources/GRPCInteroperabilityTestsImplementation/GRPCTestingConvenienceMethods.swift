@@ -15,7 +15,7 @@
  */
 import struct Foundation.Data
 import GRPCInteroperabilityTestModels
-import NIOHPACK
+@_implementationOnly import NIOHPACK
 import SwiftProtobuf
 
 // MARK: - Payload creation

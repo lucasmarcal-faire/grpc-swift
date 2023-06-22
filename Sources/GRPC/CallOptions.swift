@@ -15,12 +15,12 @@
  */
 import struct Foundation.UUID
 
-import NIOCore
+@_implementationOnly import NIOCore
 
 import Logging
-import NIOHPACK
-import NIOHTTP1
-import NIOHTTP2
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP1
+@_implementationOnly import NIOHTTP2
 
 /// Options to use for GRPC calls.
 public struct CallOptions: Sendable {

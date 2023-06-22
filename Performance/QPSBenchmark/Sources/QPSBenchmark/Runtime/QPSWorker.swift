@@ -16,8 +16,8 @@
 
 import GRPC
 import Logging
-import NIOCore
-import NIOPosix
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOPosix
 
 /// Sets up and runs a worker service which listens for instructions on what tests to run.
 /// Currently doesn't understand TLS for communication with the driver.

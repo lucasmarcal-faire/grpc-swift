@@ -15,7 +15,7 @@
  */
 
 import BenchmarkUtils
-import NIOConcurrencyHelpers
+@_implementationOnly import NIOConcurrencyHelpers
 
 /// Convenience holder for collected statistics.
 struct Stats {

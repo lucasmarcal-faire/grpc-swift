@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOHPACK
-import NIOHTTP2
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP2
 
 /// A bidirectional-streaming gRPC call. Each response is passed to the provided observer block.
 ///

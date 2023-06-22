@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 import Logging
-import NIOConcurrencyHelpers
-import NIOCore
-import NIOHTTP2
+@_implementationOnly import NIOConcurrencyHelpers
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHTTP2
 
 @usableFromInline
 internal final class ConnectionPool {

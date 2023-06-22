@@ -15,7 +15,7 @@
  */
 #if canImport(Security)
 #if canImport(Network)
-import NIOCore
+@_implementationOnly import NIOCore
 import Security
 
 extension ClientConnection {

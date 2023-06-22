@@ -13,8 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import NIOCore
-import NIOHTTP1
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHTTP1
 
 /// Handler that manages the CORS protocol for requests incoming from the browser.
 internal final class WebCORSHandler {

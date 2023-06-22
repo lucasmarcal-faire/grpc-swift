@@ -13,8 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import NIOCore
-import NIOHPACK
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
 
 /// Async-await variant of ``BidirectionalStreamingCall``.
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 #if canImport(NIOSSL)
-import NIOSSL
+@_implementationOnly import NIOSSL
 #endif
 
 extension Error {

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import NIOCore
+@_implementationOnly import NIOCore
 
 /// A type for the stream of request messages send to a gRPC server method.
 ///

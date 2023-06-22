@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import DequeModule
-import NIOCore
+@_implementationOnly import NIOCore
 
 @usableFromInline
 internal struct GRPCAsyncWriterSinkDelegate<Element: Sendable>: NIOAsyncWriterSinkDelegate {

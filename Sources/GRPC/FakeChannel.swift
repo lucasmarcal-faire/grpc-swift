@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOEmbedded
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOEmbedded
 import SwiftProtobuf
 
 // This type is deprecated, but we need to '@unchecked Sendable' to avoid warnings in our own code.

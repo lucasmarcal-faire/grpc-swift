@@ -15,7 +15,7 @@
  */
 
 import GRPC
-import NIOCore
+@_implementationOnly import NIOCore
 
 extension Grpc_Testing_ClientConfig {
   /// Work out how many theads to use - defaulting to core count if not specified.

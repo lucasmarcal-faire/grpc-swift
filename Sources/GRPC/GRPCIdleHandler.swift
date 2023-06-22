@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOHTTP2
-import NIOTLS
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHTTP2
+@_implementationOnly import NIOTLS
 
 internal final class GRPCIdleHandler: ChannelInboundHandler {
   typealias InboundIn = HTTP2Frame

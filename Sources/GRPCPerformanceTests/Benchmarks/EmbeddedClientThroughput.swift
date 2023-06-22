@@ -16,10 +16,10 @@
 import struct Foundation.Data
 import GRPC
 import Logging
-import NIOCore
-import NIOEmbedded
-import NIOHPACK
-import NIOHTTP2
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOEmbedded
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP2
 
 /// Tests the throughput on the client side by firing a unary request through an embedded channel
 /// and writing back enough gRPC as HTTP/2 frames to get through the state machine.

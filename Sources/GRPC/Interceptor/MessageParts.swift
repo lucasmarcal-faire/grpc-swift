@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import NIOHPACK
+@_implementationOnly import NIOHPACK
 
 public enum GRPCClientRequestPart<Request> {
   /// User provided metadata sent at the start of the request stream.

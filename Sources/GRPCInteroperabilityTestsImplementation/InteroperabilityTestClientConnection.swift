@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 import GRPC
-import NIOCore
+@_implementationOnly import NIOCore
 #if canImport(NIOSSL)
-import NIOSSL
+@_implementationOnly import NIOSSL
 #endif
 
 public func makeInteroperabilityTestClientBuilder(

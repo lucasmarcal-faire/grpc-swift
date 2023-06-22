@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOHPACK
-import NIOHTTP1
-import NIOHTTP2
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP1
+@_implementationOnly import NIOHTTP2
 import SwiftProtobuf
 
 /// Provides ``GRPCServerHandlerProtocol`` objects for the methods on a particular service name.

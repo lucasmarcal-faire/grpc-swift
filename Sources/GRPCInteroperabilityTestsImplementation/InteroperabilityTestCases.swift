@@ -17,7 +17,7 @@ import Dispatch
 import struct Foundation.Data
 import GRPC
 import GRPCInteroperabilityTestModels
-import NIOHPACK
+@_implementationOnly import NIOHPACK
 
 /// This test verifies that implementations support zero-size messages. Ideally, client
 /// implementations would verify that the request and response were zero bytes serialized, but

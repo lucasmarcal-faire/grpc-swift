@@ -15,9 +15,9 @@
  */
 import Foundation
 import Logging
-import NIOCore
-import NIOHPACK
-import NIOHTTP1
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP1
 import SwiftProtobuf
 
 /// Protocol declaring a minimum set of properties exposed by *all* types of call contexts.

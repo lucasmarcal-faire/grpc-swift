@@ -15,8 +15,8 @@
  */
 import GRPC
 import GRPCSampleData
-import NIOCore
-import NIOPosix
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOPosix
 
 class ServerProvidingBenchmark: Benchmark {
   private let providers: [CallHandlerProvider]

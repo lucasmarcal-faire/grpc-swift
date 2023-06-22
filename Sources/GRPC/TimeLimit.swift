@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import Dispatch
-import NIOCore
+@_implementationOnly import NIOCore
 
 /// A time limit for an RPC.
 ///

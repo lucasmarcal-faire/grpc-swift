@@ -19,8 +19,8 @@ import struct Foundation.Date
 import GRPC
 import GRPCInteroperabilityTestModels
 import Logging
-import NIOCore
-import NIOPosix
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOPosix
 
 // Notes from the test procedure are inline.
 // See: https://github.com/grpc/grpc/blob/master/doc/connection-backoff-interop-test-description.md

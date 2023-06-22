@@ -16,10 +16,10 @@
 import Dispatch
 import Foundation
 import GRPC
-import NIO
-import NIOHPACK
-import NIOHTTP1
-import NIOSSL
+@_implementationOnly import NIO
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP1
+@_implementationOnly import NIOSSL
 import OAuth2
 
 /// Create a client and return a future to provide its value.

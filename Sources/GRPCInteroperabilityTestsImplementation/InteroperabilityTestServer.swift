@@ -15,9 +15,9 @@
  */
 import GRPC
 import Logging
-import NIOCore
+@_implementationOnly import NIOCore
 #if canImport(NIOSSL)
-import NIOSSL
+@_implementationOnly import NIOSSL
 #endif
 
 /// Makes a server for gRPC interoperability testing.

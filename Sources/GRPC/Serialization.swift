@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 import struct Foundation.Data
-import NIOCore
-import NIOFoundationCompat
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOFoundationCompat
 import SwiftProtobuf
 
 public protocol MessageSerializer {

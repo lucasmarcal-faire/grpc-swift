@@ -19,9 +19,9 @@ import BenchmarkUtils
 import Foundation
 import GRPC
 import Logging
-import NIOConcurrencyHelpers
-import NIOCore
-import NIOPosix
+@_implementationOnly import NIOConcurrencyHelpers
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOPosix
 
 /// Client to make a series of asynchronous calls.
 final class AsyncQPSClientImpl<RequestMakerType: AsyncRequestMaker>: AsyncQPSClient {

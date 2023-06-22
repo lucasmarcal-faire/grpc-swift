@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import GRPC
-import NIOCore
+@_implementationOnly import NIOCore
 
 // Implementation of the control service for communication with the driver process.
 actor AsyncWorkerServiceImpl: Grpc_Testing_WorkerServiceAsyncProvider {

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import NIOHPACK
+@_implementationOnly import NIOHPACK
 
 func prettify(_ headers: HPACKHeaders) -> String {
   return "[" + headers.map { name, value, _ in

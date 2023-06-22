@@ -16,9 +16,9 @@
 import ArgumentParser
 import EchoModel
 import GRPC
-import NIOCore
-import NIOExtras
-import NIOPosix
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOExtras
+@_implementationOnly import NIOPosix
 
 @main
 @available(macOS 10.15, *)

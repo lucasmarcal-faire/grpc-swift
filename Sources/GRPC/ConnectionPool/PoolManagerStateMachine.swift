@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import NIOCore
+@_implementationOnly import NIOCore
 
 @usableFromInline
 internal struct PoolManagerStateMachine {

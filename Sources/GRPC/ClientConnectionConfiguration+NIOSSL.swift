@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 #if canImport(NIOSSL)
-import NIOSSL
+@_implementationOnly import NIOSSL
 
 extension ClientConnection.Configuration {
   /// TLS configuration for a `ClientConnection`.

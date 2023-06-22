@@ -15,7 +15,7 @@
  */
 import Foundation
 import Logging
-import NIOCore
+@_implementationOnly import NIOCore
 
 /// A channel handler which allows caught errors to be passed to a `ClientErrorDelegate`. This
 /// handler is intended to be used in the client channel pipeline after the HTTP/2 stream

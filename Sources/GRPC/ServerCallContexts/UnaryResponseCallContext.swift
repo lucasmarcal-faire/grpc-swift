@@ -15,9 +15,9 @@
  */
 import Foundation
 import Logging
-import NIOCore
-import NIOHPACK
-import NIOHTTP1
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP1
 import SwiftProtobuf
 
 /// A context provided to handlers for RPCs which return a single response, i.e. unary and client

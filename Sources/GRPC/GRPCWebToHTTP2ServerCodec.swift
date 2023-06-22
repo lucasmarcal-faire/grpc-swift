@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 import struct Foundation.Data
-import NIOCore
-import NIOHPACK
-import NIOHTTP1
-import NIOHTTP2
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHPACK
+@_implementationOnly import NIOHTTP1
+@_implementationOnly import NIOHTTP2
 
 /// A codec for translating between gRPC Web (as HTTP/1) and HTTP/2 frame payloads.
 internal final class GRPCWebToHTTP2ServerCodec: ChannelDuplexHandler {

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 import Logging
-import NIOCore
-import NIOPosix
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOPosix
 #if canImport(NIOSSL)
-import NIOSSL
+@_implementationOnly import NIOSSL
 #endif
-import NIOTransportServices
+@_implementationOnly import NIOTransportServices
 
 @usableFromInline
 internal protocol ConnectionManagerChannelProvider {

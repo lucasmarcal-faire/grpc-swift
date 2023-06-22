@@ -15,9 +15,9 @@
  */
 import Foundation
 import Logging
-import NIOConcurrencyHelpers
-import NIOCore
-import NIOHTTP2
+@_implementationOnly import NIOConcurrencyHelpers
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOHTTP2
 
 // Unchecked because mutable state is always accessed and modified on a particular event loop.
 // APIs which _may_ be called from different threads execute onto the correct event loop first.

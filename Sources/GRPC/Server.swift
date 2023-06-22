@@ -15,15 +15,15 @@
  */
 import Foundation
 import Logging
-import NIOCore
-import NIOExtras
-import NIOHTTP1
-import NIOHTTP2
-import NIOPosix
+@_implementationOnly import NIOCore
+@_implementationOnly import NIOExtras
+@_implementationOnly import NIOHTTP1
+@_implementationOnly import NIOHTTP2
+@_implementationOnly import NIOPosix
 #if canImport(NIOSSL)
-import NIOSSL
+@_implementationOnly import NIOSSL
 #endif
-import NIOTransportServices
+@_implementationOnly import NIOTransportServices
 #if canImport(Network)
 import Network
 #endif

@@ -15,7 +15,7 @@
  */
 
 import GRPC
-import NIOCore
+@_implementationOnly import NIOCore
 
 /// Protocol which clients must implement.
 protocol NIOQPSClient {
