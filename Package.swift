@@ -39,12 +39,12 @@ let packageDependencies: [Package.Dependency] = [
     from: "0.0.1"
   ),
   .package(
-    url: "https://github.com/apple/swift-nio-transport-services.git",
-    from: "1.15.0"
+    url: "https://github.com/lucasmarcal-faire/swift-nio-transport-services.git",
+    from: "0.0.1"
   ),
   .package(
-    url: "https://github.com/apple/swift-nio-extras.git",
-    from: "1.4.0"
+    url: "https://github.com/lucasmarcal-faire/swift-nio-extras.git",
+    from: "0.0.1"
   ),
   .package(
     url: "https://github.com/apple/swift-protobuf.git",
